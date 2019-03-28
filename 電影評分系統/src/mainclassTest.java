@@ -7,29 +7,30 @@ public class mainclassTest {
 	@Test
 	public void testInferMovie() {
 		mainclass a = new mainclass();
-		assertEquals("µL»P­Û¤ñªº¶W¯ÅÄê¤ù!!" ,a.inferMovie(0));
-		assertEquals("µL»P­Û¤ñªº¶W¯ÅÄê¤ù!!" ,a.inferMovie(0.5));
-		assertEquals("¬İ§¹·|²£¥ÍÄY­«ºë¯«¶Ë®`ªºÄê¤ù!!" ,a.inferMovie(1));
-		assertEquals("¬İ§¹·|²£¥ÍÄY­«ºë¯«¶Ë®`ªºÄê¤ù!!" ,a.inferMovie(1.5));
-		assertEquals("µL¸Ü¥i»¡ªº¤jÄê¤ù!!" ,a.inferMovie(2));
-		assertEquals("µL¸Ü¥i»¡ªº¤jÄê¤ù!!" ,a.inferMovie(2.5));
-		assertEquals("Äê¨ì¥i¥H¦¨¬°¸g¨åÄê¤ùªº¹q¼v!!" ,a.inferMovie(3));
-		assertEquals("Äê¨ì¥i¥H¦¨¬°¸g¨åÄê¤ùªº¹q¼v!!" ,a.inferMovie(3.5));
-		assertEquals("´Nºâ¥I§Ú¿ú¤]¤£·Q¦A¬İªº¹q¼v!!" ,a.inferMovie(4));
-		assertEquals("´Nºâ¥I§Ú¿ú¤]¤£·Q¦A¬İªº¹q¼v!!" ,a.inferMovie(4.5));
-		assertEquals("¤£­È±o¤@¬İªº¹q¼v!!" ,a.inferMovie(5));
-		assertEquals("¤£­È±o¤@¬İªº¹q¼v!!" ,a.inferMovie(5.5));
-		assertEquals("ÁÙºâ¥i¥´µo®É¶¡ªº¹q¼v!!" ,a.inferMovie(6));
-		assertEquals("ÁÙºâ¥i¥´µo®É¶¡ªº¹q¼v!!" ,a.inferMovie(6.5));
-		assertEquals("¥i­È¦^²¼»ùªº¦n¹q¼v!!" ,a.inferMovie(7));
-		assertEquals("¥i­È¦^²¼»ùªº¦n¹q¼v!!" ,a.inferMovie(7.5));
-		assertEquals("¿ù¹L¤F«D±`¥i±¤ªº¦n¹q¼v!!" ,a.inferMovie(8));
-		assertEquals("¿ù¹L¤F«D±`¥i±¤ªº¦n¹q¼v!!" ,a.inferMovie(8.5));
-		assertEquals("µL¥i¤ñÀÀªº¸g¨åÃm¥@¹d§@!!" ,a.inferMovie(9));
-		assertEquals("µL¥i¤ñÀÀªº¸g¨åÃm¥@¹d§@!!" ,a.inferMovie(9.5));
-		assertEquals("µL¥i¤ñÀÀªº¸g¨åÃm¥@¹d§@!!" ,a.inferMovie(10));
-		assertEquals("¤À¼Æ²§±`!!" ,a.inferMovie(-1));
-		assertEquals("¤À¼Æ²§±`!!" ,a.inferMovie(11));
+		assertEquals("ç„¡èˆ‡å€«æ¯”çš„è¶…ç´šçˆ›ç‰‡!!" ,a.inferMovie(0));
+		assertEquals("ç„¡èˆ‡å€«æ¯”çš„è¶…ç´šçˆ›ç‰‡!!" ,a.inferMovie(0.5));
+		assertEquals("çœ‹å®Œæœƒç”¢ç”Ÿåš´é‡ç²¾ç¥å‚·å®³çš„çˆ›ç‰‡!!" ,a.inferMovie(1));
+		assertEquals("çœ‹å®Œæœƒç”¢ç”Ÿåš´é‡ç²¾ç¥å‚·å®³çš„çˆ›ç‰‡!!" ,a.inferMovie(1.5));
+		assertEquals("ç„¡è©±å¯èªªçš„å¤§çˆ›ç‰‡!!" ,a.inferMovie(2));
+		assertEquals("ç„¡è©±å¯èªªçš„å¤§çˆ›ç‰‡!!" ,a.inferMovie(2.5));
+		assertEquals("çˆ›åˆ°å¯ä»¥æˆç‚ºç¶“å…¸çˆ›ç‰‡çš„é›»å½±!!" ,a.inferMovie(3));
+		assertEquals("çˆ›åˆ°å¯ä»¥æˆç‚ºç¶“å…¸çˆ›ç‰‡çš„é›»å½±!!" ,a.inferMovie(3.5));
+		assertEquals("å°±ç®—ä»˜æˆ‘éŒ¢ä¹Ÿä¸æƒ³å†çœ‹çš„é›»å½±!!" ,a.inferMovie(4));
+		assertEquals("å°±ç®—ä»˜æˆ‘éŒ¢ä¹Ÿä¸æƒ³å†çœ‹çš„é›»å½±!!" ,a.inferMovie(4.5));
+		assertEquals("ä¸å€¼å¾—ä¸€çœ‹çš„é›»å½±!!" ,a.inferMovie(5));
+		assertEquals("ä¸å€¼å¾—ä¸€çœ‹çš„é›»å½±!!" ,a.inferMovie(5.5));
+		assertEquals("é‚„ç®—å¯æ‰“ç™¼æ™‚é–“çš„é›»å½±!!" ,a.inferMovie(6));
+		assertEquals("é‚„ç®—å¯æ‰“ç™¼æ™‚é–“çš„é›»å½±!!" ,a.inferMovie(6.5));
+		assertEquals("å¯å€¼å›ç¥¨åƒ¹çš„å¥½é›»å½±!!" ,a.inferMovie(7));
+		assertEquals("å¯å€¼å›ç¥¨åƒ¹çš„å¥½é›»å½±!!" ,a.inferMovie(7.5));
+		assertEquals("éŒ¯éäº†éå¸¸å¯æƒœçš„å¥½é›»å½±!!" ,a.inferMovie(8));
+		assertEquals("éŒ¯éäº†éå¸¸å¯æƒœçš„å¥½é›»å½±!!" ,a.inferMovie(8.5));
+		assertEquals("ç„¡å¯æ¯”æ“¬çš„ç¶“å…¸æ› ä¸–é‰…ä½œ!!" ,a.inferMovie(9));
+		assertEquals("ç„¡å¯æ¯”æ“¬çš„ç¶“å…¸æ› ä¸–é‰…ä½œ!!" ,a.inferMovie(9.5));
+		assertEquals("ç„¡å¯æ¯”æ“¬çš„ç¶“å…¸æ› ä¸–é‰…ä½œ!!" ,a.inferMovie(10));
+		assertEquals("åˆ†æ•¸ç•°å¸¸!!" ,a.inferMovie(-1));
+		assertEquals("åˆ†æ•¸ç•°å¸¸!!" ,a.inferMovie(11));
+		
 		
 	}
 
